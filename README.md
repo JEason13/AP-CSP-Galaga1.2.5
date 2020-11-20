@@ -2,4 +2,4 @@
 _______________________________
 
 # TO:DO
-• Implement ship functionality
+• Implement ship movement functionality
