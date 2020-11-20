@@ -4,15 +4,24 @@ import numpy
 import os 
 import random 
 import time 
-from termcolor import colored
 from colorama import Fore, Back, Style
+from assets import ship_logo
+from assets import galaga_logo
 
-string = "Welcome To Galaga!"
-def writeText(string):
-    for char in string:
-        word = print(colored(char, "yellow"))
-        word.replace("\n", "") 
-        print(Fore.YELLOW + Back.BLACK)
-        time.sleep(0.75)
+os.system('clear')
+os.system("\x1b[40m")
+#print(colored(ship_logo, 'red'))
+print(Fore.RED + galaga_logo)
+time.sleep(1)
+os.system('clear')
+print(Fore.BLUE + galaga_logo)
+time.sleep(1)
+os.system('clear')
+print(Fore.RED + galaga_logo)
+time.sleep(1)
+os.system('clear')
+print(Fore.BLUE + galaga_logo)
+time.sleep(1)
+os.system('clear')
 
-writeText(string)
+print(Fore.RED + ship_logo)
