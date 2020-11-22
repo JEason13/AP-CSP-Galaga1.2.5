@@ -7,6 +7,7 @@ ______________________
 3. player ship shooting functionality 
 4. leaderboard module 
 5. leaderboard txt file
+6. requirements txt file (USAGE: pip3 install -r requirements.txt)
 
 # TO:DO 
 
